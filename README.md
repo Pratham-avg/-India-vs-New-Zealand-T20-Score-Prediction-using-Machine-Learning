@@ -17,6 +17,7 @@ Match strategy analysis
 Data science portfolio projects
 
 Dataset Information
+
 The dataset is a synthetic cricket match dataset representing ball-by-ball match situations.
 
 Features used in the dataset Feature Description match_id Unique match identifier venue Match venue inning Current innings over Current over ball Ball number runs Runs scored wickets Wickets fallen total_runs Current total score balls_remaining Balls left in the innings current_run_rate Current run rate powerplay Whether the powerplay is active
@@ -24,6 +25,7 @@ Features used in the dataset Feature Description match_id Unique match identifie
 These variables help the model understand match progress and scoring patterns.
 
 Machine Learning Workflow
+
 The project follows a complete Data Science pipeline:
 
 1️⃣ Data Preprocessing
@@ -81,6 +83,7 @@ Mean Squared Error (MSE)
 R² Score
 
 Example Match Situation
+
 Input:
 
 Overs: 2.2 Score: 5/0 Current Run Rate: 2.31
@@ -104,6 +107,7 @@ Matplotlib
 Jupyter Notebook
 
 Future Improvements
+
 Add Live Match Score Prediction
 
 Deploy using Streamlit Web App
